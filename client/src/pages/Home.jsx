@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import ProductCard from '../components/ProductCard'
 import { ClawMark } from '../components/Logo'
+import Lookbook from '../components/Lookbook'
 
 export default function Home() {
   const [products, setProducts] = useState([])
@@ -44,6 +45,18 @@ export default function Home() {
         {error && <p className="text-red-500">{error}</p>}
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {products.map((p) => <ProductCard key={p.id} product={p} />)}
+        </div>
+      </section>
+
+      <Lookbook />
+
+      <section className="relative overflow-hidden py-24 text-center">
+        <ClawMark className="pointer-events-none absolute top-1/2 left-1/2 h-96 w-96 -translate-x-1/2 -translate-y-1/2 text-brand/10" />
+        <div className="relative mx-auto max-w-2xl px-4">
+          <p className="text-sm font-bold uppercase tracking-widest text-ink/60">From zero to number one</p>
+          <p className="display mt-4 text-3xl leading-tight sm:text-4xl">
+            We are not just clothing. We are a <span className="text-brand">mindset</span> you wear.
+          </p>
         </div>
       </section>
     </>

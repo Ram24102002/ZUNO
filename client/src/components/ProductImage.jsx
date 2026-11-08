@@ -1,9 +1,9 @@
 import { ClawMark } from './Logo'
 
-// Shows the product photo if one is set, otherwise a branded placeholder in the tee's colour.
-export default function ProductImage({ product, className = '' }) {
-  if (product.image) {
-    return <img src={product.image} alt={product.name} className={`w-full bg-neutral-100 object-cover ${className}`} />
+// Shows a product photo (the first one unless `src` is given), otherwise a branded placeholder in the tee's colour.
+export default function ProductImage({ product, src = product.images?.[0], className = '' }) {
+  if (src) {
+    return <img src={src} alt={product.name} loading="lazy" className={`w-full bg-neutral-100 object-cover ${className}`} />
   }
   return (
     <div
