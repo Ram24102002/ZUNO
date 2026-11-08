@@ -1,0 +1,38 @@
+[
+  {
+    "id": "jersey-80-black",
+    "name": "Jersey 80 Oversized Tee",
+    "color": "Black",
+    "swatch": "#1a1a1a",
+    "price": 799,
+    "tag": "New",
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "description": "Drop-shoulder oversized fit with a bold 80 on the chest and contrast piping on the sleeves. Heavyweight cotton built for the gym and the street.",
+    "image": "",
+    "soldOut": false
+  },
+  {
+    "id": "graphic-cream",
+    "name": "Mindset Graphic Tee",
+    "color": "Cream",
+    "swatch": "#efe6cf",
+    "price": 849,
+    "tag": "",
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Oversized cream tee with a statement front graphic. Relaxed drop-shoulder cut, soft hand-feel cotton.",
+    "image": "",
+    "soldOut": false
+  },
+  {
+    "id": "essential-green",
+    "name": "Essential Tee",
+    "color": "Bottle Green",
+    "swatch": "#1f4d3a",
+    "price": 699,
+    "tag": "",
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Clean everyday tee in deep bottle green with a small ZUNO claw mark on the chest.",
+    "image": "",
+    "soldOut": false
+  }
+]

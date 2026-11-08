@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+/* ZUNO brand theme — taken from the @zuno.clo Instagram look:
+   clean white, sky-blue claw marks, charcoal heavy italic type. */
+@theme {
+  --font-sans: "Poppins", system-ui, sans-serif;
+  --color-brand: #1d9bf0;
+  --color-brand-dark: #0b7fd0;
+  --color-brand-light: #e6f4fe;
+  --color-ink: #2f2f33;
+}
+
+body {
+  @apply bg-white font-sans text-ink antialiased;
+}
+
+/* Heavy italic display type used for headings, like the Instagram posts */
+.display {
+  @apply font-black uppercase italic tracking-tight;
+}
