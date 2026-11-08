@@ -11,8 +11,8 @@ npm run dev           # API on :5000, site on http://localhost:5173
 
 ## Deploy (Vercel)
 
-`vercel.json` is already set up: the React build is served as a static site and the
-Express API runs as a serverless function (`api/index.js` → `server/app.js`).
+`vercel.json` defines two Vercel services: `client` (the Vite site, public at `/`) and
+`server` (Express, `server/app.js`, public at `/api/*`).
 
 ```bash
 npx vercel login      # once
@@ -38,5 +38,4 @@ client/src/components   Navbar, Footer, Logo, ProductCard, ProductImage
 client/src/index.css    brand colours (--color-brand etc.)
 server/app.js           API routes: /api/products, /api/products/:id
 server/index.js         local server
-api/index.js            Vercel entry point
 ```

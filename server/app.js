@@ -2,7 +2,7 @@ import express from 'express'
 import cors from 'cors'
 import products from './data/products.json' with { type: 'json' }
 
-// The API on its own, shared by the local server (index.js) and Vercel (api/index.js)
+// The API on its own, shared by the local server (index.js) and the Vercel "server" service
 const app = express()
 app.use(cors())
 app.use(express.json())
