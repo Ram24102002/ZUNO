@@ -26,7 +26,7 @@ Or push to GitHub and import the repo at vercel.com/new — no settings to chang
 
 Everything lives in `server/data/products.json` (redeploy after editing).
 
-- Add a photo: put it in `client/public/images/` and set `"image": "/images/your-photo.jpg"`.
+- Placeholder mockups are drawn by `node scripts/make-mockups.mjs`. To use a real photo, put it in `client/public/images/` and set `"image": "/images/your-photo.jpg"`.
 - Mark sold out: `"soldOut": true`.
 - `swatch` is the placeholder colour shown when there is no photo.
 

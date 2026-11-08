@@ -6,9 +6,15 @@
     "swatch": "#1a1a1a",
     "price": 799,
     "tag": "New",
-    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
     "description": "Drop-shoulder oversized fit with a bold 80 on the chest and contrast piping on the sleeves. Heavyweight cotton built for the gym and the street.",
-    "image": "",
+    "image": "/images/jersey-80-black.svg",
     "soldOut": false
   },
   {
@@ -18,9 +24,14 @@
     "swatch": "#efe6cf",
     "price": 849,
     "tag": "",
-    "sizes": ["S", "M", "L", "XL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "description": "Oversized cream tee with a statement front graphic. Relaxed drop-shoulder cut, soft hand-feel cotton.",
-    "image": "",
+    "image": "/images/graphic-cream.svg",
     "soldOut": false
   },
   {
@@ -30,9 +41,14 @@
     "swatch": "#1f4d3a",
     "price": 699,
     "tag": "",
-    "sizes": ["S", "M", "L", "XL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "description": "Clean everyday tee in deep bottle green with a small ZUNO claw mark on the chest.",
-    "image": "",
+    "image": "/images/essential-green.svg",
     "soldOut": false
   }
 ]
